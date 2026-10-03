@@ -1,43 +1,43 @@
-# Lucien Andrieux — Agents IA & Automatisation
+# Lucien Andrieux — AI Agents & Automation
 
-Freelance depuis 2019 · n8n · API · Supabase · Google Sheets / Excel
+Freelance since 2019 · n8n · APIs · Supabase · Google Sheets / Excel
 
-J'aide les entreprises à automatiser leurs processus avec l'IA, en partant de là où vivent vraiment leurs données : Google Sheets, Excel, SharePoint.
+I help companies automate their processes with AI, starting from where their data actually lives: Google Sheets, Excel, SharePoint.
 
-L'IA là où elle apporte vraiment, du code là où la règle est stricte, et l'humain garde la main sur la donnée source.
+AI where it truly adds value, code where the rule is strict, and people stay in control of the source data.
 
-## Projet phare
+## Featured project
 
 ### [Spare Parts Anomaly Detector](https://github.com/LucienAndrieux/SparePartsAnomalyDetector)
 
-Agent IA qui détecte chaque nuit les anomalies de saisie d'un fichier de suivi de commandes de pièces détachées.
+An AI agent that detects data-entry anomalies every night in a spare-parts order tracking file.
 
-- **Workflow n8n** qui n'analyse que les lignes modifiées du Google Sheets
-- **LLM** pour la détection, avec validation de la réponse dans le workflow et contraintes en base
-- **Supabase** (PostgreSQL, Row Level Security colonne par colonne) pour stocker les anomalies
-- **Dashboard React + Express**, vues par job et par responsable
-- **Clôture vérifiée** : une anomalie n'est fermée qu'après relecture de la ligne à la source
+- **n8n workflow** that only analyzes the rows changed in the Google Sheet
+- **LLM** detection, with output validated in the workflow and enforced by database constraints
+- **Supabase** (PostgreSQL, column-level Row Level Security) to store anomalies
+- **React + Express dashboard**, with views by job and by owner
+- **Verified resolution**: an anomaly is closed only after the row is re-checked at the source
 
-Démo en ligne : [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-showcase.duckdns.org) · Projet final de la formation Le Wagon AI Product Builder (2026)
+Live demo: [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-showcase.duckdns.org) · Video walkthrough: [Vimeo](VIMEO-URL) · Capstone project of the Le Wagon AI Product Builder program (2026)
 
-## Autres projets
+## Other projects
 
-- **[Job Tracker](https://github.com/LucienAndrieux/schema-planner-buddy)** : application React + TypeScript connectée à Supabase
-- **Bots Python** hébergés sur VPS, développés avec Claude Code
-- **Missions clients** : reporting KPI Power Query / DAX pour Andritz Metals France, application métier et intégrations API (Pennylane, Podio, Google Ads, Google Analytics) pour Meilleure Copro
+- **[Job Tracker](https://github.com/LucienAndrieux/schema-planner-buddy)**: React + TypeScript app connected to Supabase
+- **Python bots** hosted on a VPS, built with Claude Code
+- **Client work**: KPI reporting with Power Query / DAX for Andritz Metals France; business app and API integrations (Pennylane, Podio, Google Ads, Google Analytics) for Meilleure Copro
 
 ## Stack
 
-| Domaine | Outils |
+| Area | Tools |
 | --- | --- |
-| IA & automatisation | n8n, OpenAI API, RAG, MCP, Claude Code |
-| Back & données | Supabase, PostgreSQL, Python, API REST |
-| Front | React, TypeScript, Vite |
-| Tableurs & BI | Google Sheets, Apps Script, Excel, Power Query, Power BI, Power Automate |
+| AI & automation | n8n, OpenAI API, RAG, MCP, Claude Code |
+| Backend & data | Supabase, PostgreSQL, Python, REST APIs |
+| Frontend | React, TypeScript, Vite |
+| Spreadsheets & BI | Google Sheets, Apps Script, Excel, Power Query, Power BI, Power Automate |
 
-## Me contacter
+## Get in touch
 
-- [Profil Malt](https://www.malt.fr/profile/lucienandrieux)
-- [LinkedIn](https://www.linkedin.com/in/VOTRE-URL)
+- [Malt profile](https://www.malt.fr/profile/lucienandrieux)
+- [LinkedIn](https://www.linkedin.com/in/lucienandrieux)
 
-Disponible pour des missions en télétravail.
+Available for remote missions · French & English
