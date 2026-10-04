@@ -18,7 +18,10 @@ An AI agent that detects data-entry anomalies every night in a spare-parts order
 - **React + Express dashboard**, with views by job and by owner
 - **Verified resolution**: an anomaly is closed only after the row is re-checked at the source
 
-Live demo: [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-showcase.duckdns.org) · Video walkthrough: [Vimeo](VIMEO-URL) · Capstone project of the Le Wagon AI Product Builder program (2026)
+Live demo: [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-showcase.duckdns.org)
+
+Video walkthrough: [Vimeo](VIMEO-URL)
+Capstone project of the Le Wagon AI Product Builder program (2026)
 
 ## Other projects
 
