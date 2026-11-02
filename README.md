@@ -45,7 +45,7 @@ Monthly scheduling for shift-based teams, built around a fictional 28-employee, 
 | Area | Tools |
 | --- | --- |
 | AI & automation | n8n, OpenAI API, RAG, MCP, Claude Code |
-| Backend & data | Supabase, PostgreSQL, Python, REST APIs |
+| Backend & data | Supabase, PostgreSQL, Python, REST APIs, OR-Tools, FastAPI |
 | Frontend | React, TypeScript, Vite |
 | Spreadsheets & BI | Google Sheets, Apps Script, Excel, Power Query, Power BI, Power Automate |
 
