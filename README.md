@@ -23,6 +23,17 @@ Live demo: [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-show
 Video walkthrough: [Vimeo](VIMEO-URL)
 Capstone project of the Le Wagon AI Product Builder program (2026)
 
+### Shiftsmith — shift scheduling with a constraint solver
+
+Monthly scheduling for shift-based teams, built around a fictional 28-employee, 6-section hotel.
+
+- **Rule validator**: every rule is checked on each change (11 h rest, 6 consecutive days max, monthly weekend off, couples, staffing min/max, eligibility), with a one-click "Fix" that adds no new error.
+- **Solver**: OR-Tools CP-SAT generates a full month, or replans the rest of the current month changing as few cells as possible. On a November 2026 trial with a 7-day sick leave: optimal in 3–4.5 s, 1 error left in the rest of the month (11 in the published version).
+- **LLM requests**: free text becomes typed operations (Structured Outputs), applied only after a manager approves them.
+- Hour bank, PDF export, EN/FR/PT interface.
+
+**Stack**: Next.js, TypeScript, PostgreSQL, FastAPI, OR-Tools, Docker Compose + Caddy.
+[Live demo](https://shift-smith.duckdns.org/start) (no account, fictional data) · [Code](https://github.com/LucienAndrieux/shift-smith)
 ## Other projects
 
 - **[Job Tracker](https://github.com/LucienAndrieux/schema-planner-buddy)**: React + TypeScript app connected to Supabase
