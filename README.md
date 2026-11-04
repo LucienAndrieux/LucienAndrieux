@@ -18,9 +18,9 @@ An AI agent that detects data-entry anomalies every night in a spare-parts order
 - **React + Express dashboard**, with views by job and by owner
 - **Verified resolution**: an anomaly is closed only after the row is re-checked at the source
 
-Live demo: [lucien-anomalies-showcase.duckdns.org](https://lucien-anomalies-showcase.duckdns.org)
+Live demo: [anomalies.lucienandrieux.com](https://anomalies.lucienandrieux.com/)
 
-Video walkthrough: [Vimeo](VIMEO-URL)
+Video walkthrough: [Vimeo](https://vimeo.com/1232281689)
 Capstone project of the Le Wagon AI Product Builder program (2026)
 
 ### Shiftsmith — shift scheduling with a constraint solver
@@ -33,7 +33,7 @@ Monthly scheduling for shift-based teams, built around a fictional 28-employee, 
 - Hour bank, PDF export, EN/FR/PT interface.
 
 **Stack**: Next.js, TypeScript, PostgreSQL, FastAPI, OR-Tools, Docker Compose + Caddy.
-[Live demo](https://shift-smith.duckdns.org/start) (no account, fictional data) · [Code](https://github.com/LucienAndrieux/shift-smith)
+[Live demo](https://shiftsmith.lucienandrieux.com/start) (no account, fictional data) · [Code](https://github.com/LucienAndrieux/shift-smith)
 ## Other projects
 
 - **[Job Tracker](https://github.com/LucienAndrieux/schema-planner-buddy)**: React + TypeScript app connected to Supabase
